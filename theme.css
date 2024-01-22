@@ -1,0 +1,117 @@
+/* navbar section */
+
+.navbar {
+    display: flex;
+    background-color: rgb(51, 9, 143);
+    position: sticky;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.navbar a {
+    color: rgb(253, 234, 159);
+}
+
+.navbar a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+/* ḥome page */
+
+.homebg {
+    background: url(call-break-bg-1.jpg) no-repeat center center/cover;
+    /* z-index: -1; */
+    /* position: relative; */
+}
+
+.homebg2 {
+    opacity: 0.9;
+    z-index: 11;
+    position: relative;
+}
+
+#home h1 {
+    color: rgb(32, 9, 97);
+}
+
+/* download page */
+
+.content {
+    margin: 53px;
+    padding: 13px;
+}
+
+/* contact page */
+
+#contact {
+    background-color: rgb(65, 38, 123);
+    padding-bottom: 59px;
+}
+
+#contact .row{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(67, 196, 131);
+}
+
+.info :hover {
+    border-radius: 0px;
+}
+
+/* footer page */
+
+.footer {
+    color: aliceblue;
+}
+
+footer.py-5.footer {
+    padding-top: 7rem !important;
+    padding-bottom: 1rem !important;
+
+}
+
+/* buttons */
+
+.btn {
+    border: 13px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0; */
+}
+
+.btn-primary {
+    background-color: rgb(90, 18, 157);
+}
+
+.btn-primary:hover {
+    background-color: rgb(154, 81, 222);
+    color: black;
+}
+
+.btn-secondary {
+    color: black;
+    border-color: black
+}
+
+.btn-secondary:hover {
+    color: white;
+    border-color: white;
+    background-color: black;
+}
